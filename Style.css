@@ -59,38 +59,3 @@
           font-size: 2.5rem;
         }
 
-        .fa:hover {
-            opacity: 0.9;
-        }
-  
-        .fa-twitter {
-            background: black;
-            color: white;
-        }
-  
-        
-        .fa-github {
-            background: #ff5700;
-            color: white;
-        }
-  
-        .fa {
-            padding: 20px;
-            font-size: 40px;
-            width: 60px;
-            text-decoration: none;
-            margin: 5px 80px;
-        }
-  
-        h1 {
-            color: green;
-        }
-          a, img{
-            display: inline;
-            
-          }
-          
-          img {
-            width: 40px;
-            
-          }  
