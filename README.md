@@ -19,6 +19,6 @@ Simple  calculator  built using HTML, CSS, and JavaScript. It allows users to pe
 
 ## Getting Started
 
-To use the calculator, simply visit the live demo here or download the entire repository and open the index.html in your browser.
+To use the calculator, simply visit the  https://simple-calcify-javascript.netlify.app/ or download the entire repository and open the index.html in your browser.
 
 
