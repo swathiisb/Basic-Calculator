@@ -13,7 +13,7 @@ Simple  calculator  built using HTML, CSS, and JavaScript. It allows users to pe
 ## Tech used
 
 1. HTML(for structuring)
-2. CSS (for styling)
+2. CSS (for styling and to improve the presentation)
 3. Javascript(for developing the logic)
 
 
