@@ -1,57 +1,60 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@200&display=swap')
     font-weight: normal;
   }
   
   body {
-    margin: 10px;
-    padding: 10px;
-    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #aed1e6, #c6dbf0);
     }
-
-.calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 90vh;
-    grid-template-columns: repeat(4, 80px);
-    grid-template-rows: minmax(90px, auto) repeat(5, 80px);
-}
-.calculator-grid > button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 1px, solid:;
-    outline: none;
-
-}
-
-.calculator-grid > button:hover {
-    background-color: #bdeaee ;
-}
-.span-two {
-grid-column: span 2;    
-}
-
-.output{
-    grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
-}
-
-.output .previous-operand{
-    color: rgba(255,255, 255, 0.75);
-    font-size: 1.5rem;
-}
-
-
-.output .current-operand{
-    color: white;
-    font-size: 2.5rem;
-}       
+  
+    .calculator-grid {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      min-height:70px;
+      grid-template-columns: repeat(4, 80px);
+      grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+      padding:20px;
+      }
+  
+      .calculator-grid > button {
+        cursor: pointer;
+        font-size: 2rem;
+        border: 1px, solid #FFFFFF;
+        outline: none;     
+      }
+  
+        .calculator-grid > button:hover {
+          background-color:#ffb8d1;
+        }
+  
+        .span-two {
+          grid-column: span 2;
+          
+          
+        }
+  
+        .output{
+          grid-column: 1 / -1;
+          background-color: rgba(0, 0, 0, 0.75);
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-around;
+          flex-direction: column;
+          word-wrap: break-word;
+          word-break: break-all;
+          padding:10px;
+        }
+  
+        .output .previous-operand{
+          color: rgba(255,255, 255, 0.75);
+          font-size: 1.5rem;
+        }
+  
+        .output .current-operand{
+          color: white;
+          font-size: 2.5rem;
+        }
