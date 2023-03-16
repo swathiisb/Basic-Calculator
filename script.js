@@ -150,7 +150,7 @@ class Calculator {
     }
     if (event.key === "Backspace") {
       event.preventDefault();
-      calculator.delete()
+    calculator.delete()
       calculator.updateDisplay()
     }
     if (event.key == 'Delete') {
