@@ -22,11 +22,12 @@
     cursor: pointer;
     font-size: 2rem;
     border: 1px, solid #FFFFFF;
-    outline: none;     
+    outline: none;
+
 }
 
 .calculator-grid > button:hover {
-    background-color: #a9a9a9;
+    background-color: #bdeaee ;
 }
 .span-two {
 grid-column: span 2;    
