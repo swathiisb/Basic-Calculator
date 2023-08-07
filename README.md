@@ -7,7 +7,7 @@ Simple  calculator  built using HTML, CSS, and JavaScript. It allows users to pe
 
 ## Features
 1. Addition, subtraction, multiplication, and division operations
-2. Clear button to reset calculator
+2. Clear button to reset the calculator
 3. Decimal support
 
 ## Tech used
@@ -19,6 +19,6 @@ Simple  calculator  built using HTML, CSS, and JavaScript. It allows users to pe
 
 ## Getting Started
 
-To use the calculator, simply visit the  https://simple-calcify-javascript.netlify.app/ or download the entire repository and open the index.html in your browser.
+To use the calculator, visit https://simple-calcify-javascript.netlify.app/ or download the entire repository and open the index.html in your browser.
 
 
